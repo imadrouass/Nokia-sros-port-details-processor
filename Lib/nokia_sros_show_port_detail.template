@@ -1,0 +1,36 @@
+Value Description (.*)
+Value Key Port (\S+)
+Value AdminState (\S+)
+Value Link (\S+)
+Value OperState (.*)
+Value Mode (\S+)
+Value Encap (\S+)
+Value ConfigDuplex (\S+)
+Value Mtu (\S+)
+Value AutoNegotiate (\S+)
+Value PortModule (\S+)
+Value LinkLength (\d+\w+)
+Value RxOptical ([-+]?\d*\.?\d+)
+Value InTraffic (\S+)
+Value OutTraffic (\S+)
+Value FCSErrors (\d+)
+
+Start
+  ^={5,} -> Entry
+
+Entry
+  ^Description\s+:${Description}
+  ^Interface\s+:\s+${Port}
+  ^Admin\s+State\s+:\s+${AdminState}
+  ^Physical\s+Link\s+:\s+${Link}\s+MTU\s+:\s+${Mtu}
+  ^Oper\s+State\s+:\s+${OperState}\s+Config\s+Duplex\s+:\s+${ConfigDuplex}
+  ^Configured\s+Mode\s+:\s+${Mode}\s+Encap\s+Type\s+:\s+${Encap}
+  ^Optical\s+Compliance\s+:\s+${PortModule}
+  ^Auto-negotiate\s+:\s+${AutoNegotiate}\s+MDI/MDX\s+:\s+${PortModule}
+  ^Link Length support:\s+${LinkLength}\s+for
+  # Format 1: Direct RxOptical value
+  ^Rx\s+Optical\s+Power\s+\(avg\s+dBm\)\s+${RxOptical}
+  # Format 2: Lane-based format (100G Port)
+  ^\s+1\s+\S+\s+\S+\s+\S+\s+${RxOptical}\s*$$
+  ^Utilization\s+\(300\s+seconds\)\s+${InTraffic}\s+${OutTraffic}
+  ^FCS\s+Errors\s+:\s+${FCSErrors} -> Record
