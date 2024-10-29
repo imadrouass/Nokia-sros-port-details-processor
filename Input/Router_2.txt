@@ -1,651 +1,17 @@
-A:R1# show port detail
+A:R2# show port detail
 
 ===============================================================================
 Ethernet Interface
 ===============================================================================
 Description        : 10/100/Gig Ethernet SFP
-Interface          : 1/1/1                      Oper Speed       : N/A
-Link-level         : Ethernet                   Config Speed     : 1 Gbps
-Admin State        : down                       Oper Duplex      : N/A
-Oper State         : down                       Config Duplex    : full
-Physical Link      : No                         MTU              : 8704
-Single Fiber Mode  : No                         Min Frame Length : 64 Bytes
-IfIndex            : 35684352                   Hold time up     : 0 seconds
-Last State Change  : 10/20/2024 15:55:43        Hold time down   : 0 seconds
-Last Cleared Time  : N/A                        DDM Events       : Enabled
-Phys State Chng Cnt: 0                          
-RS-FEC Config Mode : None                       RS-FEC Oper Mode : None
-
-Configured Mode    : network                    Encap Type       : null
-Dot1Q Ethertype    : 0x8100                     QinQ Ethertype   : 0x8100
-PBB Ethertype      : 0x88e7                     
-Ing. Pool % Rate   : 100                        Egr. Pool % Rate : 100
-Net. Egr. Queue Pol: default                    
-Egr. Sched. Pol    : n/a
-Monitor Port Sched : Disabled                   
-Monitor Agg Q Stats: Disabled                   
-Auto-negotiate     : true                       MDI/MDX          : unknown
-Oper Phy-tx-clock  : not-applicable             
-Accounting Policy  : None                       Collect-stats    : Disabled
-Acct Plcy Eth Phys : None                       Collect Eth Phys : Disabled
-Egress Rate        : Default                    Ingress Rate     : Default
-Load-balance-algo  : Default                    LACP Tunnel      : Disabled
-Access Bandwidth   : Not-Applicable             Booking Factor   : 100
-Access Available BW: 0                          
-Access Booked BW   : 0                          
-
-Dampening State    : Disabled                   Current Penalties: 0
-Suppress Threshold : 2000                       Reuse Threshold  : 1000
-Max Penalties      : 16000                      Max Suppress Time: 20 seconds
-Half Life          : 5 seconds                  
-
-Down-when-looped   : Disabled                   Keep-alive       : 10
-Loop Detected      : False                      Retry            : 120
-Use Broadcast Addr : False                      
-
-Sync. Status Msg.  : Disabled                   Rx Quality Level : N/A
-Tx DUS/DNU         : Disabled                   Tx Quality Level : N/A
-SSM Code Type      : sdh
-
-Down On Int. Error : Disabled                   DOIE Tx Disable  : Disabled
-
-CRC Mon SD Thresh  : Disabled                   CRC Mon Window   : 10 seconds
-CRC Mon SF Thresh  : Disabled                   
-
-EFM OAM            : Disabled                   EFM OAM Link Mon : Disabled
-Ignr EFM OAM State : False                      
-
-Configured Address : 50:00:00:01:00:02
-Hardware Address   : 50:00:00:01:00:02
-
-Transceiver Data
-
-Transceiver Status : operational
-Transceiver Type   : SFP
-Model Number       : 3HE00028AAAA01  ALA  IPUIAEMDAA
-TX Laser Wavelength: 1310 nm                    Diag Capable     : yes
-Connector Code     : LC                         Vendor OUI       : 00:00:5f
-Manufacture date   : 2006/01/12                 Media            : Ethernet
-Serial Number      : 5ZS600H01693    
-Part Number        : SCP6F44-A4-AWH  
-Optical Compliance : GIGE-LX 
-Link Length support: 10km for SMF; 550m for OM2 50u MMF; 550m for OM1 62.5u M*
-
-===============================================================================
-Transceiver Digital Diagnostic Monitoring (DDM), Internally Calibrated
-===============================================================================
-                              Value High Alarm  High Warn   Low Warn  Low Alarm
--------------------------------------------------------------------------------
-Temperature (C)               +22.8    +105.0      +95.0      -45.0      -45.0 
-Supply Voltage (V)             3.33      4.00       3.60       3.00       2.80 
-Tx Bias Current (mA)            6.0      60.0       50.0        0.0        0.0 
-Tx Output Power (dBm)         -5.34      0.00      -2.00     -10.50     -12.50 
-Rx Optical Power (avg dBm)   -40.00      8.16       8.16     -40.00     -40.00 
-===============================================================================
-
-----------------------------------------------------------------------
-Ethernet Bandwidth Notification Message Information
-----------------------------------------------------------------------
-ETH-BN Egr Rate Changes: Disabled                                     
-ETH-BN Rate (kbps)     : None                                         
-----------------------------------------------------------------------
-===============================================================================
-* indicates that the corresponding row element may have been truncated.
-
-===============================================================================
-Traffic Statistics
-===============================================================================
-                                                   Input                 Output
--------------------------------------------------------------------------------
-Octets                                                 0                      0
-Packets                                                0                      0
-Errors                                                 0                      0
-Utilization (300 seconds)                          0.00%                  0.00%
-
-===============================================================================
-Ethernet Statistics
-===============================================================================
-
-Broadcast Pckts  :                   0  Drop Events      :                   0
-Multicast Pckts  :                   0  CRC/Align Errors :                   0
-Undersize Pckts  :                   0  Fragments        :                   0
-Oversize Pckts   :                   0  Jabbers          :                   0
-Collisions       :                   0
-
-Octets                         :                   0
-Packets                        :                   0
-Packets of 64 Octets           :                   0
-Packets of 65 to 127 Octets    :                   0
-Packets of 128 to 255 Octets   :                   0
-Packets of 256 to 511 Octets   :                   0
-Packets of 512 to 1023 Octets  :                   0
-Packets of 1024 to 1518 Octets :                   0
-Packets of 1519 or more Octets :                   0
-===============================================================================
-
-===============================================================================
-Port Statistics
-===============================================================================
-                                                   Input                 Output
--------------------------------------------------------------------------------
-Unicast Packets                                        0                      0
-Multicast Packets                                      0                      0
-Broadcast Packets                                      0                      0
-Discards                                               0                      0
-Unknown Proto Discards                                 0 
-===============================================================================
-
-===============================================================================
-Ethernet-like Medium Statistics
-===============================================================================
-
-Alignment Errors :                   0  Sngl Collisions  :                   0
-FCS Errors       :                   0  Mult Collisions  :                   0
-SQE Test Errors  :                   0  Late Collisions  :                   0
-CSE              :                   0  Excess Collisns  :                   0
-Too long Frames  :                   0  Int MAC Tx Errs  :                   0
-Symbol Errors    :                   0  Int MAC Rx Errs  :                   0
-In Pause Frames  :                   0  Out Pause Frames :                   0
-===============================================================================
-
-===============================================================================
-Per Threshold MDA Discard Statistics
-===============================================================================
-                                Packets                 Octets
--------------------------------------------------------------------------------
-Threshold 0 Dropped :           0                       0                     
-Threshold 1 Dropped :           0                       0                     
-Threshold 2 Dropped :           0                       0                     
-Threshold 3 Dropped :           0                       0                     
-Threshold 4 Dropped :           0                       0                     
-Threshold 5 Dropped :           0                       0                     
-Threshold 6 Dropped :           0                       0                     
-Threshold 7 Dropped :           0                       0                     
-Threshold 8 Dropped :           0                       0                     
-Threshold 9 Dropped :           0                       0                     
-Threshold 10 Dropped :          0                       0                     
-Threshold 11 Dropped :          0                       0                     
-Threshold 12 Dropped :          0                       0                     
-Threshold 13 Dropped :          0                       0                     
-Threshold 14 Dropped :          0                       0                     
-Threshold 15 Dropped :          0                       0                     
-===============================================================================
-
-===============================================================================
-Ingress Port Forwarding Engine Drop Reason Statistics
-===============================================================================
-IPv4 Header Error                                      0
-IPv4 Invalid Address                                   0
-IPv6 Header Error                                      0
-IPv6 Invalid Address                                   0
-IP Route Blackholed                                    0
-ACL Filter Discards                                    0
-Unicast RPF Check Failed                               0
-BFD Spoof Check Failed                                 0
-Unicast MAC Destination Address Mismatch               0
-Multicast MAC With Unicast Dest IP                     0
-Unknown MAC Destination Address Discarded in VPLS      0
-L2 Service MTU Exceeded                                0
-Needs ICMP                                             0
-===============================================================================
-
-===============================================================================
-Queue Statistics
-===============================================================================
-                                                        
--------------------------------------------------------------------------------
-Ingress Queue  1             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue  2             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue  3             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue  4             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue  5             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue  6             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue  7             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue  8             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue  9             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue 10             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue 11             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue 12             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue 13             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue 14             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue 15             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue 16             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
- 
-Egress Queue  1              Packets                 Octets
-     In/Inplus Prof fwded  :    0                       0
-     In/Inplus Prof dropped:    0                       0
-     Out/Exc Prof fwded    :    0                       0
-     Out/Exc Prof dropped  :    0                       0
-Egress Queue  2              Packets                 Octets
-     In/Inplus Prof fwded  :    0                       0
-     In/Inplus Prof dropped:    0                       0
-     Out/Exc Prof fwded    :    0                       0
-     Out/Exc Prof dropped  :    0                       0
-Egress Queue  3              Packets                 Octets
-     In/Inplus Prof fwded  :    0                       0
-     In/Inplus Prof dropped:    0                       0
-     Out/Exc Prof fwded    :    0                       0
-     Out/Exc Prof dropped  :    0                       0
-Egress Queue  4              Packets                 Octets
-     In/Inplus Prof fwded  :    0                       0
-     In/Inplus Prof dropped:    0                       0
-     Out/Exc Prof fwded    :    0                       0
-     Out/Exc Prof dropped  :    0                       0
-Egress Queue  5              Packets                 Octets
-     In/Inplus Prof fwded  :    0                       0
-     In/Inplus Prof dropped:    0                       0
-     Out/Exc Prof fwded    :    0                       0
-     Out/Exc Prof dropped  :    0                       0
-Egress Queue  6              Packets                 Octets
-     In/Inplus Prof fwded  :    0                       0
-     In/Inplus Prof dropped:    0                       0
-     Out/Exc Prof fwded    :    0                       0
-     Out/Exc Prof dropped  :    0                       0
-Egress Queue  7              Packets                 Octets
-     In/Inplus Prof fwded  :    0                       0
-     In/Inplus Prof dropped:    0                       0
-     Out/Exc Prof fwded    :    0                       0
-     Out/Exc Prof dropped  :    0                       0
-Egress Queue  8              Packets                 Octets
-     In/Inplus Prof fwded  :    0                       0
-     In/Inplus Prof dropped:    0                       0
-     Out/Exc Prof fwded    :    0                       0
-     Out/Exc Prof dropped  :    0                       0
-===============================================================================
-
-===============================================================================
-Ethernet Interface
-===============================================================================
-Description        : To_R2
-Interface          : 1/1/2                      Oper Speed       : 1 Gbps
-Link-level         : Ethernet                   Config Speed     : 1 Gbps
-Admin State        : up                         Oper Duplex      : full
-Oper State         : up                         Config Duplex    : full
-Physical Link      : Yes                        MTU              : 8704
-Single Fiber Mode  : No                         Min Frame Length : 64 Bytes
-IfIndex            : 35717120                   Hold time up     : 0 seconds
-Last State Change  : 10/20/2024 15:56:16        Hold time down   : 0 seconds
-Last Cleared Time  : N/A                        DDM Events       : Enabled
-Phys State Chng Cnt: 1                          
-RS-FEC Config Mode : None                       RS-FEC Oper Mode : None
-
-Configured Mode    : network                    Encap Type       : null
-Dot1Q Ethertype    : 0x8100                     QinQ Ethertype   : 0x8100
-PBB Ethertype      : 0x88e7                     
-Ing. Pool % Rate   : 100                        Egr. Pool % Rate : 100
-Net. Egr. Queue Pol: default                    
-Egr. Sched. Pol    : n/a
-Monitor Port Sched : Disabled                   
-Monitor Agg Q Stats: Disabled                   
-Auto-negotiate     : true                       MDI/MDX          : unknown
-Oper Phy-tx-clock  : not-applicable             
-Accounting Policy  : None                       Collect-stats    : Disabled
-Acct Plcy Eth Phys : None                       Collect Eth Phys : Disabled
-Egress Rate        : Default                    Ingress Rate     : Default
-Load-balance-algo  : Default                    LACP Tunnel      : Disabled
-Access Bandwidth   : Not-Applicable             Booking Factor   : 100
-Access Available BW: 0                          
-Access Booked BW   : 0                          
-
-Dampening State    : Disabled                   Current Penalties: 0
-Suppress Threshold : 2000                       Reuse Threshold  : 1000
-Max Penalties      : 16000                      Max Suppress Time: 20 seconds
-Half Life          : 5 seconds                  
-
-Down-when-looped   : Disabled                   Keep-alive       : 10
-Loop Detected      : False                      Retry            : 120
-Use Broadcast Addr : False                      
-
-Sync. Status Msg.  : Disabled                   Rx Quality Level : N/A
-Tx DUS/DNU         : Disabled                   Tx Quality Level : N/A
-SSM Code Type      : sdh
-
-Down On Int. Error : Disabled                   DOIE Tx Disable  : Disabled
-
-CRC Mon SD Thresh  : Disabled                   CRC Mon Window   : 10 seconds
-CRC Mon SF Thresh  : Disabled                   
-
-EFM OAM            : Disabled                   EFM OAM Link Mon : Disabled
-Ignr EFM OAM State : False                      
-
-Configured Address : 50:00:00:01:00:03
-Hardware Address   : 50:00:00:01:00:03
-
-Transceiver Data
-
-Transceiver Status : operational
-Transceiver Type   : SFP
-Model Number       : 3HE00028AAAA01  ALA  IPUIAEMDAA
-TX Laser Wavelength: 1310 nm                    Diag Capable     : yes
-Connector Code     : LC                         Vendor OUI       : 00:00:5f
-Manufacture date   : 2006/01/12                 Media            : Ethernet
-Serial Number      : 5ZS600H01693    
-Part Number        : SCP6F44-A4-AWH  
-Optical Compliance : GIGE-LX 
-Link Length support: 10km for SMF; 550m for OM2 50u MMF; 550m for OM1 62.5u M*
-
-===============================================================================
-Transceiver Digital Diagnostic Monitoring (DDM), Internally Calibrated
-===============================================================================
-                              Value High Alarm  High Warn   Low Warn  Low Alarm
--------------------------------------------------------------------------------
-Temperature (C)               +22.8    +105.0      +95.0      -45.0      -45.0 
-Supply Voltage (V)             3.33      4.00       3.60       3.00       2.80 
-Tx Bias Current (mA)            6.0      60.0       50.0        0.0        0.0 
-Tx Output Power (dBm)         -5.34      0.00      -2.00     -10.50     -12.50 
-Rx Optical Power (avg dBm)   -40.00      8.16       8.16     -40.00     -40.00 
-===============================================================================
-
-----------------------------------------------------------------------
-Ethernet Bandwidth Notification Message Information
-----------------------------------------------------------------------
-ETH-BN Egr Rate Changes: Disabled                                     
-ETH-BN Rate (kbps)     : None                                         
-----------------------------------------------------------------------
-===============================================================================
-* indicates that the corresponding row element may have been truncated.
-
-===============================================================================
-Traffic Statistics
-===============================================================================
-                                                   Input                 Output
--------------------------------------------------------------------------------
-Octets                                            689052                 690677
-Packets                                             7373                   7377
-Errors                                                 0                      0
-Utilization (300 seconds)                          0.00%                  0.00%
-
-===============================================================================
-Ethernet Statistics
-===============================================================================
-
-Broadcast Pckts  :                   6  Drop Events      :                   0
-Multicast Pckts  :                4945  CRC/Align Errors :                   0
-Undersize Pckts  :                   0  Fragments        :                   0
-Oversize Pckts   :                   0  Jabbers          :                   0
-Collisions       :                   0
-
-Octets                         :             1379729
-Packets                        :               14750
-Packets of 64 Octets           :                4993
-Packets of 65 to 127 Octets    :                8828
-Packets of 128 to 255 Octets   :                 916
-Packets of 256 to 511 Octets   :                  12
-Packets of 512 to 1023 Octets  :                   1
-Packets of 1024 to 1518 Octets :                   0
-Packets of 1519 or more Octets :                   0
-===============================================================================
-
-===============================================================================
-Port Statistics
-===============================================================================
-                                                   Input                 Output
--------------------------------------------------------------------------------
-Unicast Packets                                     4898                   4901
-Multicast Packets                                   2472                   2473
-Broadcast Packets                                      3                      3
-Discards                                               0                      0
-Unknown Proto Discards                                 0 
-===============================================================================
-
-===============================================================================
-Ethernet-like Medium Statistics
-===============================================================================
-
-Alignment Errors :                   0  Sngl Collisions  :                   0
-FCS Errors       :                   0  Mult Collisions  :                   0
-SQE Test Errors  :                   0  Late Collisions  :                   0
-CSE              :                   0  Excess Collisns  :                   0
-Too long Frames  :                   0  Int MAC Tx Errs  :                   0
-Symbol Errors    :                   0  Int MAC Rx Errs  :                   0
-In Pause Frames  :                   0  Out Pause Frames :                   0
-===============================================================================
-
-===============================================================================
-Per Threshold MDA Discard Statistics
-===============================================================================
-                                Packets                 Octets
--------------------------------------------------------------------------------
-Threshold 0 Dropped :           0                       0                     
-Threshold 1 Dropped :           0                       0                     
-Threshold 2 Dropped :           0                       0                     
-Threshold 3 Dropped :           0                       0                     
-Threshold 4 Dropped :           0                       0                     
-Threshold 5 Dropped :           0                       0                     
-Threshold 6 Dropped :           0                       0                     
-Threshold 7 Dropped :           0                       0                     
-Threshold 8 Dropped :           0                       0                     
-Threshold 9 Dropped :           0                       0                     
-Threshold 10 Dropped :          0                       0                     
-Threshold 11 Dropped :          0                       0                     
-Threshold 12 Dropped :          0                       0                     
-Threshold 13 Dropped :          0                       0                     
-Threshold 14 Dropped :          0                       0                     
-Threshold 15 Dropped :          0                       0                     
-===============================================================================
-
-===============================================================================
-Ingress Port Forwarding Engine Drop Reason Statistics
-===============================================================================
-IPv4 Header Error                                      0
-IPv4 Invalid Address                                   0
-IPv6 Header Error                                      0
-IPv6 Invalid Address                                   0
-IP Route Blackholed                                    0
-ACL Filter Discards                                    0
-Unicast RPF Check Failed                               0
-BFD Spoof Check Failed                                 0
-Unicast MAC Destination Address Mismatch               0
-Multicast MAC With Unicast Dest IP                     0
-Unknown MAC Destination Address Discarded in VPLS      0
-L2 Service MTU Exceeded                                0
-Needs ICMP                                             0
-===============================================================================
-
-===============================================================================
-Queue Statistics
-===============================================================================
-                                                        
--------------------------------------------------------------------------------
-Ingress Queue  1             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue  2             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue  3             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue  4             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue  5             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue  6             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue  7             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue  8             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue  9             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue 10             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue 11             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue 12             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue 13             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue 14             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue 15             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
-Ingress Queue 16             Packets                 Octets
-     In Profile forwarded  :    0                       0
-     In Profile dropped    :    0                       0
-     Out Profile forwarded :    0                       0
-     Out Profile dropped   :    0                       0
- 
-Egress Queue  1              Packets                 Octets
-     In/Inplus Prof fwded  :    0                       0
-     In/Inplus Prof dropped:    0                       0
-     Out/Exc Prof fwded    :    0                       0
-     Out/Exc Prof dropped  :    0                       0
-Egress Queue  2              Packets                 Octets
-     In/Inplus Prof fwded  :    0                       0
-     In/Inplus Prof dropped:    0                       0
-     Out/Exc Prof fwded    :    0                       0
-     Out/Exc Prof dropped  :    0                       0
-Egress Queue  3              Packets                 Octets
-     In/Inplus Prof fwded  :    0                       0
-     In/Inplus Prof dropped:    0                       0
-     Out/Exc Prof fwded    :    0                       0
-     Out/Exc Prof dropped  :    0                       0
-Egress Queue  4              Packets                 Octets
-     In/Inplus Prof fwded  :    0                       0
-     In/Inplus Prof dropped:    0                       0
-     Out/Exc Prof fwded    :    0                       0
-     Out/Exc Prof dropped  :    0                       0
-Egress Queue  5              Packets                 Octets
-     In/Inplus Prof fwded  :    0                       0
-     In/Inplus Prof dropped:    0                       0
-     Out/Exc Prof fwded    :    0                       0
-     Out/Exc Prof dropped  :    0                       0
-Egress Queue  6              Packets                 Octets
-     In/Inplus Prof fwded  :    0                       0
-     In/Inplus Prof dropped:    0                       0
-     Out/Exc Prof fwded    :    0                       0
-     Out/Exc Prof dropped  :    0                       0
-Egress Queue  7              Packets                 Octets
-     In/Inplus Prof fwded  :    0                       0
-     In/Inplus Prof dropped:    0                       0
-     Out/Exc Prof fwded    :    0                       0
-     Out/Exc Prof dropped  :    0                       0
-Egress Queue  8              Packets                 Octets
-     In/Inplus Prof fwded  :    7377                    690677
-     In/Inplus Prof dropped:    0                       0
-     Out/Exc Prof fwded    :    0                       0
-     Out/Exc Prof dropped  :    0                       0
-===============================================================================
-
-===============================================================================
-Ethernet Interface
-===============================================================================
-Description        : To_R3
-Interface          : 1/1/3                      Oper Speed       : 1 Gbps
+Interface          : 1/1/1                      Oper Speed       : 1 Gbps
 Link-level         : Ethernet                   Config Speed     : 1 Gbps
 Admin State        : up                         Oper Duplex      : full
 Oper State         : up                         Config Duplex    : full
 Physical Link      : Yes                        MTU              : 1514
 Single Fiber Mode  : No                         Min Frame Length : 64 Bytes
-IfIndex            : 35749888                   Hold time up     : 0 seconds
-Last State Change  : 10/20/2024 15:56:16        Hold time down   : 0 seconds
+IfIndex            : 35684352                   Hold time up     : 0 seconds
+Last State Change  : 10/20/2024 15:56:14        Hold time down   : 0 seconds
 Last Cleared Time  : N/A                        DDM Events       : Enabled
 Phys State Chng Cnt: 1                          
 RS-FEC Config Mode : None                       RS-FEC Oper Mode : None
@@ -658,7 +24,7 @@ Net. Egr. Queue Pol: default
 Egr. Sched. Pol    : n/a
 Monitor Port Sched : Disabled                   
 Monitor Agg Q Stats: Disabled                   
-Auto-negotiate     : true                       MDI/MDX          : unknown
+Auto-negotiate     : limited                    MDI/MDX          : unknown
 Oper Phy-tx-clock  : not-applicable             
 Accounting Policy  : None                       Collect-stats    : Disabled
 Acct Plcy Eth Phys : None                       Collect Eth Phys : Disabled
@@ -689,8 +55,8 @@ CRC Mon SF Thresh  : Disabled
 EFM OAM            : Disabled                   EFM OAM Link Mon : Disabled
 Ignr EFM OAM State : False                      
 
-Configured Address : 50:00:00:01:00:04
-Hardware Address   : 50:00:00:01:00:04
+Configured Address : 50:00:00:02:00:02
+Hardware Address   : 50:00:00:02:00:02
 
 Transceiver Data
 
@@ -731,8 +97,8 @@ Traffic Statistics
 ===============================================================================
                                                    Input                 Output
 -------------------------------------------------------------------------------
-Octets                                            720094                4997675
-Packets                                             9299                  15740
+Octets                                            462940                4432980
+Packets                                             5857                  11609
 Errors                                                 0                      0
 Utilization (300 seconds)                          0.00%                  0.00%
 
@@ -741,19 +107,19 @@ Ethernet Statistics
 ===============================================================================
 
 Broadcast Pckts  :                   4  Drop Events      :                   0
-Multicast Pckts  :                3335  CRC/Align Errors :                   0
+Multicast Pckts  :                3325  CRC/Align Errors :                   0
 Undersize Pckts  :                   0  Fragments        :                   0
 Oversize Pckts   :                   0  Jabbers          :                   0
 Collisions       :                   0
 
-Octets                         :             5719197
-Packets                        :               25051
-Packets of 64 Octets           :               11415
-Packets of 65 to 127 Octets    :                6602
-Packets of 128 to 255 Octets   :                3136
-Packets of 256 to 511 Octets   :                 606
-Packets of 512 to 1023 Octets  :                 311
-Packets of 1024 to 1518 Octets :                2981
+Octets                         :             4895920
+Packets                        :               17466
+Packets of 64 Octets           :                4919
+Packets of 65 to 127 Octets    :                6541
+Packets of 128 to 255 Octets   :                2351
+Packets of 256 to 511 Octets   :                 627
+Packets of 512 to 1023 Octets  :                 227
+Packets of 1024 to 1518 Octets :                2801
 Packets of 1519 or more Octets :                   0
 ===============================================================================
 
@@ -762,8 +128,8 @@ Port Statistics
 ===============================================================================
                                                    Input                 Output
 -------------------------------------------------------------------------------
-Unicast Packets                                     8434                  13266
-Multicast Packets                                    865                   2470
+Unicast Packets                                     4996                   9141
+Multicast Packets                                    861                   2464
 Broadcast Packets                                      0                      4
 Discards                                               0                      0
 Unknown Proto Discards                                 0 
@@ -945,7 +311,7 @@ Egress Queue  7              Packets                 Octets
      Out/Exc Prof fwded    :    0                       0
      Out/Exc Prof dropped  :    0                       0
 Egress Queue  8              Packets                 Octets
-     In/Inplus Prof fwded  :    15802                   5005719
+     In/Inplus Prof fwded  :    11615                   4433808
      In/Inplus Prof dropped:    0                       0
      Out/Exc Prof fwded    :    0                       0
      Out/Exc Prof dropped  :    0                       0
@@ -954,7 +320,641 @@ Egress Queue  8              Packets                 Octets
 ===============================================================================
 Ethernet Interface
 ===============================================================================
-Description        : to_Local_PC
+Description        : 10/100/Gig Ethernet SFP
+Interface          : 1/1/2                      Oper Speed       : 1 Gbps
+Link-level         : Ethernet                   Config Speed     : 1 Gbps
+Admin State        : up                         Oper Duplex      : full
+Oper State         : up                         Config Duplex    : full
+Physical Link      : Yes                        MTU              : 8704
+Single Fiber Mode  : No                         Min Frame Length : 64 Bytes
+IfIndex            : 35717120                   Hold time up     : 0 seconds
+Last State Change  : 10/20/2024 15:56:14        Hold time down   : 0 seconds
+Last Cleared Time  : N/A                        DDM Events       : Enabled
+Phys State Chng Cnt: 1                          
+RS-FEC Config Mode : None                       RS-FEC Oper Mode : None
+
+Configured Mode    : network                    Encap Type       : null
+Dot1Q Ethertype    : 0x8100                     QinQ Ethertype   : 0x8100
+PBB Ethertype      : 0x88e7                     
+Ing. Pool % Rate   : 100                        Egr. Pool % Rate : 100
+Net. Egr. Queue Pol: default                    
+Egr. Sched. Pol    : n/a
+Monitor Port Sched : Disabled                   
+Monitor Agg Q Stats: Disabled                   
+Auto-negotiate     : true                       MDI/MDX          : unknown
+Oper Phy-tx-clock  : not-applicable             
+Accounting Policy  : None                       Collect-stats    : Disabled
+Acct Plcy Eth Phys : None                       Collect Eth Phys : Disabled
+Egress Rate        : Default                    Ingress Rate     : Default
+Load-balance-algo  : Default                    LACP Tunnel      : Disabled
+Access Bandwidth   : Not-Applicable             Booking Factor   : 100
+Access Available BW: 0                          
+Access Booked BW   : 0                          
+
+Dampening State    : Disabled                   Current Penalties: 0
+Suppress Threshold : 2000                       Reuse Threshold  : 1000
+Max Penalties      : 16000                      Max Suppress Time: 20 seconds
+Half Life          : 5 seconds                  
+
+Down-when-looped   : Disabled                   Keep-alive       : 10
+Loop Detected      : False                      Retry            : 120
+Use Broadcast Addr : False                      
+
+Sync. Status Msg.  : Disabled                   Rx Quality Level : N/A
+Tx DUS/DNU         : Disabled                   Tx Quality Level : N/A
+SSM Code Type      : sdh
+
+Down On Int. Error : Disabled                   DOIE Tx Disable  : Disabled
+
+CRC Mon SD Thresh  : Disabled                   CRC Mon Window   : 10 seconds
+CRC Mon SF Thresh  : Disabled                   
+
+EFM OAM            : Disabled                   EFM OAM Link Mon : Disabled
+Ignr EFM OAM State : False                      
+
+Configured Address : 50:00:00:02:00:03
+Hardware Address   : 50:00:00:02:00:03
+
+Transceiver Data
+
+Transceiver Status : operational
+Transceiver Type   : SFP
+Model Number       : 3HE00028AAAA01  ALA  IPUIAEMDAA
+TX Laser Wavelength: 1310 nm                    Diag Capable     : yes
+Connector Code     : LC                         Vendor OUI       : 00:00:5f
+Manufacture date   : 2006/01/12                 Media            : Ethernet
+Serial Number      : 5ZS600H01693    
+Part Number        : SCP6F44-A4-AWH  
+Optical Compliance : GIGE-LX 
+Link Length support: 10km for SMF; 550m for OM2 50u MMF; 550m for OM1 62.5u M*
+
+===============================================================================
+Transceiver Digital Diagnostic Monitoring (DDM), Internally Calibrated
+===============================================================================
+                              Value High Alarm  High Warn   Low Warn  Low Alarm
+-------------------------------------------------------------------------------
+Temperature (C)               +22.8    +105.0      +95.0      -45.0      -45.0 
+Supply Voltage (V)             3.33      4.00       3.60       3.00       2.80 
+Tx Bias Current (mA)            6.0      60.0       50.0        0.0        0.0 
+Tx Output Power (dBm)         -5.34      0.00      -2.00     -10.50     -12.50 
+Rx Optical Power (avg dBm)   -40.00      8.16       8.16     -40.00     -40.00 
+===============================================================================
+
+----------------------------------------------------------------------
+Ethernet Bandwidth Notification Message Information
+----------------------------------------------------------------------
+ETH-BN Egr Rate Changes: Disabled                                     
+ETH-BN Rate (kbps)     : None                                         
+----------------------------------------------------------------------
+===============================================================================
+* indicates that the corresponding row element may have been truncated.
+
+===============================================================================
+Traffic Statistics
+===============================================================================
+                                                   Input                 Output
+-------------------------------------------------------------------------------
+Octets                                            690677                 689323
+Packets                                             7377                   7376
+Errors                                                 0                      0
+Utilization (300 seconds)                          0.00%                  0.00%
+
+===============================================================================
+Ethernet Statistics
+===============================================================================
+
+Broadcast Pckts  :                   7  Drop Events      :                   0
+Multicast Pckts  :                4947  CRC/Align Errors :                   0
+Undersize Pckts  :                   0  Fragments        :                   0
+Oversize Pckts   :                   0  Jabbers          :                   0
+Collisions       :                   0
+
+Octets                         :             1380000
+Packets                        :               14753
+Packets of 64 Octets           :                4994
+Packets of 65 to 127 Octets    :                8830
+Packets of 128 to 255 Octets   :                 916
+Packets of 256 to 511 Octets   :                  12
+Packets of 512 to 1023 Octets  :                   1
+Packets of 1024 to 1518 Octets :                   0
+Packets of 1519 or more Octets :                   0
+===============================================================================
+
+===============================================================================
+Port Statistics
+===============================================================================
+                                                   Input                 Output
+-------------------------------------------------------------------------------
+Unicast Packets                                     4901                   4898
+Multicast Packets                                   2473                   2474
+Broadcast Packets                                      3                      4
+Discards                                               0                      0
+Unknown Proto Discards                                 0 
+===============================================================================
+
+===============================================================================
+Ethernet-like Medium Statistics
+===============================================================================
+
+Alignment Errors :                   0  Sngl Collisions  :                   0
+FCS Errors       :                   0  Mult Collisions  :                   0
+SQE Test Errors  :                   0  Late Collisions  :                   0
+CSE              :                   0  Excess Collisns  :                   0
+Too long Frames  :                   0  Int MAC Tx Errs  :                   0
+Symbol Errors    :                   0  Int MAC Rx Errs  :                   0
+In Pause Frames  :                   0  Out Pause Frames :                   0
+===============================================================================
+
+===============================================================================
+Per Threshold MDA Discard Statistics
+===============================================================================
+                                Packets                 Octets
+-------------------------------------------------------------------------------
+Threshold 0 Dropped :           0                       0                     
+Threshold 1 Dropped :           0                       0                     
+Threshold 2 Dropped :           0                       0                     
+Threshold 3 Dropped :           0                       0                     
+Threshold 4 Dropped :           0                       0                     
+Threshold 5 Dropped :           0                       0                     
+Threshold 6 Dropped :           0                       0                     
+Threshold 7 Dropped :           0                       0                     
+Threshold 8 Dropped :           0                       0                     
+Threshold 9 Dropped :           0                       0                     
+Threshold 10 Dropped :          0                       0                     
+Threshold 11 Dropped :          0                       0                     
+Threshold 12 Dropped :          0                       0                     
+Threshold 13 Dropped :          0                       0                     
+Threshold 14 Dropped :          0                       0                     
+Threshold 15 Dropped :          0                       0                     
+===============================================================================
+
+===============================================================================
+Ingress Port Forwarding Engine Drop Reason Statistics
+===============================================================================
+IPv4 Header Error                                      0
+IPv4 Invalid Address                                   0
+IPv6 Header Error                                      0
+IPv6 Invalid Address                                   0
+IP Route Blackholed                                    0
+ACL Filter Discards                                    0
+Unicast RPF Check Failed                               0
+BFD Spoof Check Failed                                 0
+Unicast MAC Destination Address Mismatch               0
+Multicast MAC With Unicast Dest IP                     0
+Unknown MAC Destination Address Discarded in VPLS      0
+L2 Service MTU Exceeded                                0
+Needs ICMP                                             0
+===============================================================================
+
+===============================================================================
+Queue Statistics
+===============================================================================
+                                                        
+-------------------------------------------------------------------------------
+Ingress Queue  1             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue  2             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue  3             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue  4             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue  5             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue  6             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue  7             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue  8             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue  9             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue 10             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue 11             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue 12             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue 13             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue 14             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue 15             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue 16             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+ 
+Egress Queue  1              Packets                 Octets
+     In/Inplus Prof fwded  :    0                       0
+     In/Inplus Prof dropped:    0                       0
+     Out/Exc Prof fwded    :    0                       0
+     Out/Exc Prof dropped  :    0                       0
+Egress Queue  2              Packets                 Octets
+     In/Inplus Prof fwded  :    0                       0
+     In/Inplus Prof dropped:    0                       0
+     Out/Exc Prof fwded    :    0                       0
+     Out/Exc Prof dropped  :    0                       0
+Egress Queue  3              Packets                 Octets
+     In/Inplus Prof fwded  :    0                       0
+     In/Inplus Prof dropped:    0                       0
+     Out/Exc Prof fwded    :    0                       0
+     Out/Exc Prof dropped  :    0                       0
+Egress Queue  4              Packets                 Octets
+     In/Inplus Prof fwded  :    0                       0
+     In/Inplus Prof dropped:    0                       0
+     Out/Exc Prof fwded    :    0                       0
+     Out/Exc Prof dropped  :    0                       0
+Egress Queue  5              Packets                 Octets
+     In/Inplus Prof fwded  :    0                       0
+     In/Inplus Prof dropped:    0                       0
+     Out/Exc Prof fwded    :    0                       0
+     Out/Exc Prof dropped  :    0                       0
+Egress Queue  6              Packets                 Octets
+     In/Inplus Prof fwded  :    0                       0
+     In/Inplus Prof dropped:    0                       0
+     Out/Exc Prof fwded    :    0                       0
+     Out/Exc Prof dropped  :    0                       0
+Egress Queue  7              Packets                 Octets
+     In/Inplus Prof fwded  :    0                       0
+     In/Inplus Prof dropped:    0                       0
+     Out/Exc Prof fwded    :    0                       0
+     Out/Exc Prof dropped  :    0                       0
+Egress Queue  8              Packets                 Octets
+     In/Inplus Prof fwded  :    7376                    689323
+     In/Inplus Prof dropped:    0                       0
+     Out/Exc Prof fwded    :    0                       0
+     Out/Exc Prof dropped  :    0                       0
+===============================================================================
+
+===============================================================================
+Ethernet Interface
+===============================================================================
+Description        : 10/100/Gig Ethernet SFP
+Interface          : 1/1/3                      Oper Speed       : 1 Gbps
+Link-level         : Ethernet                   Config Speed     : 1 Gbps
+Admin State        : up                         Oper Duplex      : full
+Oper State         : up                         Config Duplex    : full
+Physical Link      : Yes                        MTU              : 1514
+Single Fiber Mode  : No                         Min Frame Length : 64 Bytes
+IfIndex            : 35749888                   Hold time up     : 0 seconds
+Last State Change  : 10/20/2024 15:56:14        Hold time down   : 0 seconds
+Last Cleared Time  : N/A                        DDM Events       : Enabled
+Phys State Chng Cnt: 1                          
+RS-FEC Config Mode : None                       RS-FEC Oper Mode : None
+
+Configured Mode    : network                    Encap Type       : null
+Dot1Q Ethertype    : 0x8100                     QinQ Ethertype   : 0x8100
+PBB Ethertype      : 0x88e7                     
+Ing. Pool % Rate   : 100                        Egr. Pool % Rate : 100
+Net. Egr. Queue Pol: default                    
+Egr. Sched. Pol    : n/a
+Monitor Port Sched : Disabled                   
+Monitor Agg Q Stats: Disabled                   
+Auto-negotiate     : true                       MDI/MDX          : unknown
+Oper Phy-tx-clock  : not-applicable             
+Accounting Policy  : None                       Collect-stats    : Disabled
+Acct Plcy Eth Phys : None                       Collect Eth Phys : Disabled
+Egress Rate        : Default                    Ingress Rate     : Default
+Load-balance-algo  : Default                    LACP Tunnel      : Disabled
+Access Bandwidth   : Not-Applicable             Booking Factor   : 100
+Access Available BW: 0                          
+Access Booked BW   : 0                          
+
+Dampening State    : Disabled                   Current Penalties: 0
+Suppress Threshold : 2000                       Reuse Threshold  : 1000
+Max Penalties      : 16000                      Max Suppress Time: 20 seconds
+Half Life          : 5 seconds                  
+
+Down-when-looped   : Disabled                   Keep-alive       : 10
+Loop Detected      : False                      Retry            : 120
+Use Broadcast Addr : False                      
+
+Sync. Status Msg.  : Disabled                   Rx Quality Level : N/A
+Tx DUS/DNU         : Disabled                   Tx Quality Level : N/A
+SSM Code Type      : sdh
+
+Down On Int. Error : Disabled                   DOIE Tx Disable  : Disabled
+
+CRC Mon SD Thresh  : Disabled                   CRC Mon Window   : 10 seconds
+CRC Mon SF Thresh  : Disabled                   
+
+EFM OAM            : Disabled                   EFM OAM Link Mon : Disabled
+Ignr EFM OAM State : False                      
+
+Configured Address : 50:00:00:02:00:04
+Hardware Address   : 50:00:00:02:00:04
+
+Transceiver Data
+
+Transceiver Status : operational
+Transceiver Type   : SFP
+Model Number       : 3HE00028AAAA01  ALA  IPUIAEMDAA
+TX Laser Wavelength: 1310 nm                    Diag Capable     : yes
+Connector Code     : LC                         Vendor OUI       : 00:00:5f
+Manufacture date   : 2006/01/12                 Media            : Ethernet
+Serial Number      : 5ZS600H01693    
+Part Number        : SCP6F44-A4-AWH  
+Optical Compliance : GIGE-LX 
+Link Length support: 10km for SMF; 550m for OM2 50u MMF; 550m for OM1 62.5u M*
+
+===============================================================================
+Transceiver Digital Diagnostic Monitoring (DDM), Internally Calibrated
+===============================================================================
+                              Value High Alarm  High Warn   Low Warn  Low Alarm
+-------------------------------------------------------------------------------
+Temperature (C)               +22.8    +105.0      +95.0      -45.0      -45.0 
+Supply Voltage (V)             3.33      4.00       3.60       3.00       2.80 
+Tx Bias Current (mA)            6.0      60.0       50.0        0.0        0.0 
+Tx Output Power (dBm)         -5.34      0.00      -2.00     -10.50     -12.50 
+Rx Optical Power (avg dBm)   -40.00      8.16       8.16     -40.00     -40.00 
+===============================================================================
+
+----------------------------------------------------------------------
+Ethernet Bandwidth Notification Message Information
+----------------------------------------------------------------------
+ETH-BN Egr Rate Changes: Disabled                                     
+ETH-BN Rate (kbps)     : None                                         
+----------------------------------------------------------------------
+===============================================================================
+* indicates that the corresponding row element may have been truncated.
+
+===============================================================================
+Traffic Statistics
+===============================================================================
+                                                   Input                 Output
+-------------------------------------------------------------------------------
+Octets                                                 0                 273143
+Packets                                                0                   2425
+Errors                                                 0                      0
+Utilization (300 seconds)                          0.00%                  0.00%
+
+===============================================================================
+Ethernet Statistics
+===============================================================================
+
+Broadcast Pckts  :                   3  Drop Events      :                   0
+Multicast Pckts  :                2422  CRC/Align Errors :                   0
+Undersize Pckts  :                   0  Fragments        :                   0
+Oversize Pckts   :                   0  Jabbers          :                   0
+Collisions       :                   0
+
+Octets                         :              273143
+Packets                        :                2425
+Packets of 64 Octets           :                   3
+Packets of 65 to 127 Octets    :                2422
+Packets of 128 to 255 Octets   :                   0
+Packets of 256 to 511 Octets   :                   0
+Packets of 512 to 1023 Octets  :                   0
+Packets of 1024 to 1518 Octets :                   0
+Packets of 1519 or more Octets :                   0
+===============================================================================
+
+===============================================================================
+Port Statistics
+===============================================================================
+                                                   Input                 Output
+-------------------------------------------------------------------------------
+Unicast Packets                                        0                      0
+Multicast Packets                                      0                   2422
+Broadcast Packets                                      0                      3
+Discards                                               0                      0
+Unknown Proto Discards                                 0 
+===============================================================================
+
+===============================================================================
+Ethernet-like Medium Statistics
+===============================================================================
+
+Alignment Errors :                   0  Sngl Collisions  :                   0
+FCS Errors       :                   0  Mult Collisions  :                   0
+SQE Test Errors  :                   0  Late Collisions  :                   0
+CSE              :                   0  Excess Collisns  :                   0
+Too long Frames  :                   0  Int MAC Tx Errs  :                   0
+Symbol Errors    :                   0  Int MAC Rx Errs  :                   0
+In Pause Frames  :                   0  Out Pause Frames :                   0
+===============================================================================
+
+===============================================================================
+Per Threshold MDA Discard Statistics
+===============================================================================
+                                Packets                 Octets
+-------------------------------------------------------------------------------
+Threshold 0 Dropped :           0                       0                     
+Threshold 1 Dropped :           0                       0                     
+Threshold 2 Dropped :           0                       0                     
+Threshold 3 Dropped :           0                       0                     
+Threshold 4 Dropped :           0                       0                     
+Threshold 5 Dropped :           0                       0                     
+Threshold 6 Dropped :           0                       0                     
+Threshold 7 Dropped :           0                       0                     
+Threshold 8 Dropped :           0                       0                     
+Threshold 9 Dropped :           0                       0                     
+Threshold 10 Dropped :          0                       0                     
+Threshold 11 Dropped :          0                       0                     
+Threshold 12 Dropped :          0                       0                     
+Threshold 13 Dropped :          0                       0                     
+Threshold 14 Dropped :          0                       0                     
+Threshold 15 Dropped :          0                       0                     
+===============================================================================
+
+===============================================================================
+Ingress Port Forwarding Engine Drop Reason Statistics
+===============================================================================
+IPv4 Header Error                                      0
+IPv4 Invalid Address                                   0
+IPv6 Header Error                                      0
+IPv6 Invalid Address                                   0
+IP Route Blackholed                                    0
+ACL Filter Discards                                    0
+Unicast RPF Check Failed                               0
+BFD Spoof Check Failed                                 0
+Unicast MAC Destination Address Mismatch               0
+Multicast MAC With Unicast Dest IP                     0
+Unknown MAC Destination Address Discarded in VPLS      0
+L2 Service MTU Exceeded                                0
+Needs ICMP                                             0
+===============================================================================
+
+===============================================================================
+Queue Statistics
+===============================================================================
+                                                        
+-------------------------------------------------------------------------------
+Ingress Queue  1             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue  2             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue  3             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue  4             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue  5             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue  6             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue  7             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue  8             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue  9             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue 10             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue 11             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue 12             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue 13             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue 14             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue 15             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+Ingress Queue 16             Packets                 Octets
+     In Profile forwarded  :    0                       0
+     In Profile dropped    :    0                       0
+     Out Profile forwarded :    0                       0
+     Out Profile dropped   :    0                       0
+ 
+Egress Queue  1              Packets                 Octets
+     In/Inplus Prof fwded  :    0                       0
+     In/Inplus Prof dropped:    0                       0
+     Out/Exc Prof fwded    :    0                       0
+     Out/Exc Prof dropped  :    0                       0
+Egress Queue  2              Packets                 Octets
+     In/Inplus Prof fwded  :    0                       0
+     In/Inplus Prof dropped:    0                       0
+     Out/Exc Prof fwded    :    0                       0
+     Out/Exc Prof dropped  :    0                       0
+Egress Queue  3              Packets                 Octets
+     In/Inplus Prof fwded  :    0                       0
+     In/Inplus Prof dropped:    0                       0
+     Out/Exc Prof fwded    :    0                       0
+     Out/Exc Prof dropped  :    0                       0
+Egress Queue  4              Packets                 Octets
+     In/Inplus Prof fwded  :    0                       0
+     In/Inplus Prof dropped:    0                       0
+     Out/Exc Prof fwded    :    0                       0
+     Out/Exc Prof dropped  :    0                       0
+Egress Queue  5              Packets                 Octets
+     In/Inplus Prof fwded  :    0                       0
+     In/Inplus Prof dropped:    0                       0
+     Out/Exc Prof fwded    :    0                       0
+     Out/Exc Prof dropped  :    0                       0
+Egress Queue  6              Packets                 Octets
+     In/Inplus Prof fwded  :    0                       0
+     In/Inplus Prof dropped:    0                       0
+     Out/Exc Prof fwded    :    0                       0
+     Out/Exc Prof dropped  :    0                       0
+Egress Queue  7              Packets                 Octets
+     In/Inplus Prof fwded  :    0                       0
+     In/Inplus Prof dropped:    0                       0
+     Out/Exc Prof fwded    :    0                       0
+     Out/Exc Prof dropped  :    0                       0
+Egress Queue  8              Packets                 Octets
+     In/Inplus Prof fwded  :    2425                    273143
+     In/Inplus Prof dropped:    0                       0
+     Out/Exc Prof fwded    :    0                       0
+     Out/Exc Prof dropped  :    0                       0
+===============================================================================
+
+===============================================================================
+Ethernet Interface
+===============================================================================
+Description        : 10/100/Gig Ethernet SFP
 Interface          : 1/1/4                      Oper Speed       : 1 Gbps
 Link-level         : Ethernet                   Config Speed     : 1 Gbps
 Admin State        : up                         Oper Duplex      : full
@@ -962,8 +962,8 @@ Oper State         : up - Active in LAG 1       Config Duplex    : full
 Physical Link      : Yes                        MTU              : 8704
 Single Fiber Mode  : No                         Min Frame Length : 64 Bytes
 IfIndex            : 35782656                   Hold time up     : 0 seconds
-Last State Change  : 10/20/2024 15:56:16        Hold time down   : 0 seconds
-Last Cleared Time  : 10/20/2024 15:55:43        DDM Events       : Enabled
+Last State Change  : 10/20/2024 15:56:14        Hold time down   : 0 seconds
+Last Cleared Time  : 10/20/2024 15:55:42        DDM Events       : Enabled
 Phys State Chng Cnt: 1                          
 RS-FEC Config Mode : None                       RS-FEC Oper Mode : None
 
@@ -1006,8 +1006,8 @@ CRC Mon SF Thresh  : Disabled
 EFM OAM            : Disabled                   EFM OAM Link Mon : Disabled
 Ignr EFM OAM State : False                      
 
-Configured Address : 50:00:00:01:00:05
-Hardware Address   : 50:00:00:01:00:05
+Configured Address : 50:00:00:02:00:05
+Hardware Address   : 50:00:00:02:00:05
 
 Transceiver Data
 
@@ -1279,7 +1279,7 @@ Oper State         : down                       Config Duplex    : full
 Physical Link      : No                         MTU              : 8704
 Single Fiber Mode  : No                         Min Frame Length : 64 Bytes
 IfIndex            : 35815424                   Hold time up     : 0 seconds
-Last State Change  : 10/20/2024 15:55:43        Hold time down   : 0 seconds
+Last State Change  : 10/20/2024 15:55:42        Hold time down   : 0 seconds
 Last Cleared Time  : N/A                        DDM Events       : Enabled
 Phys State Chng Cnt: 0                          
 RS-FEC Config Mode : None                       RS-FEC Oper Mode : None
@@ -1323,8 +1323,8 @@ CRC Mon SF Thresh  : Disabled
 EFM OAM            : Disabled                   EFM OAM Link Mon : Disabled
 Ignr EFM OAM State : False                      
 
-Configured Address : 50:00:00:01:00:06
-Hardware Address   : 50:00:00:01:00:06
+Configured Address : 50:00:00:02:00:06
+Hardware Address   : 50:00:00:02:00:06
 
 Transceiver Data
 
@@ -1596,7 +1596,7 @@ Oper State         : down                       Config Duplex    : full
 Physical Link      : No                         MTU              : 8704
 Single Fiber Mode  : No                         Min Frame Length : 64 Bytes
 IfIndex            : 35848192                   Hold time up     : 0 seconds
-Last State Change  : 10/20/2024 15:55:43        Hold time down   : 0 seconds
+Last State Change  : 10/20/2024 15:55:42        Hold time down   : 0 seconds
 Last Cleared Time  : N/A                        DDM Events       : Enabled
 Phys State Chng Cnt: 0                          
 RS-FEC Config Mode : None                       RS-FEC Oper Mode : None
@@ -1640,8 +1640,8 @@ CRC Mon SF Thresh  : Disabled
 EFM OAM            : Disabled                   EFM OAM Link Mon : Disabled
 Ignr EFM OAM State : False                      
 
-Configured Address : 50:00:00:01:00:07
-Hardware Address   : 50:00:00:01:00:07
+Configured Address : 50:00:00:02:00:07
+Hardware Address   : 50:00:00:02:00:07
 
 Transceiver Data
 
@@ -1913,7 +1913,7 @@ Oper State         : down                       Config Duplex    : full
 Physical Link      : No                         MTU              : 8704
 Single Fiber Mode  : No                         Min Frame Length : 64 Bytes
 IfIndex            : 35880960                   Hold time up     : 0 seconds
-Last State Change  : 10/20/2024 15:55:43        Hold time down   : 0 seconds
+Last State Change  : 10/20/2024 15:55:42        Hold time down   : 0 seconds
 Last Cleared Time  : N/A                        DDM Events       : Enabled
 Phys State Chng Cnt: 0                          
 RS-FEC Config Mode : None                       RS-FEC Oper Mode : None
@@ -1957,8 +1957,8 @@ CRC Mon SF Thresh  : Disabled
 EFM OAM            : Disabled                   EFM OAM Link Mon : Disabled
 Ignr EFM OAM State : False                      
 
-Configured Address : 50:00:00:01:00:08
-Hardware Address   : 50:00:00:01:00:08
+Configured Address : 50:00:00:02:00:08
+Hardware Address   : 50:00:00:02:00:08
 
 Transceiver Data
 
@@ -2230,7 +2230,7 @@ Oper State         : down                       Config Duplex    : full
 Physical Link      : No                         MTU              : 8704
 Single Fiber Mode  : No                         Min Frame Length : 64 Bytes
 IfIndex            : 35913728                   Hold time up     : 0 seconds
-Last State Change  : 10/20/2024 15:55:43        Hold time down   : 0 seconds
+Last State Change  : 10/20/2024 15:55:42        Hold time down   : 0 seconds
 Last Cleared Time  : N/A                        DDM Events       : Enabled
 Phys State Chng Cnt: 0                          
 RS-FEC Config Mode : None                       RS-FEC Oper Mode : None
@@ -2274,8 +2274,8 @@ CRC Mon SF Thresh  : Disabled
 EFM OAM            : Disabled                   EFM OAM Link Mon : Disabled
 Ignr EFM OAM State : False                      
 
-Configured Address : 50:00:00:01:00:09
-Hardware Address   : 50:00:00:01:00:09
+Configured Address : 50:00:00:02:00:09
+Hardware Address   : 50:00:00:02:00:09
 
 Transceiver Data
 
@@ -2547,7 +2547,7 @@ Oper State         : down                       Config Duplex    : full
 Physical Link      : No                         MTU              : 8704
 Single Fiber Mode  : No                         Min Frame Length : 64 Bytes
 IfIndex            : 35946496                   Hold time up     : 0 seconds
-Last State Change  : 10/20/2024 15:55:43        Hold time down   : 0 seconds
+Last State Change  : 10/20/2024 15:55:42        Hold time down   : 0 seconds
 Last Cleared Time  : N/A                        DDM Events       : Enabled
 Phys State Chng Cnt: 0                          
 RS-FEC Config Mode : None                       RS-FEC Oper Mode : None
@@ -2864,7 +2864,7 @@ Oper State         : down                       Config Duplex    : full
 Physical Link      : No                         MTU              : 8704
 Single Fiber Mode  : No                         Min Frame Length : 64 Bytes
 IfIndex            : 35979264                   Hold time up     : 0 seconds
-Last State Change  : 10/20/2024 15:55:43        Hold time down   : 0 seconds
+Last State Change  : 10/20/2024 15:55:42        Hold time down   : 0 seconds
 Last Cleared Time  : N/A                        DDM Events       : Enabled
 Phys State Chng Cnt: 0                          
 RS-FEC Config Mode : None                       RS-FEC Oper Mode : None
@@ -3181,7 +3181,7 @@ Oper State         : down                       Config Duplex    : full
 Physical Link      : No                         MTU              : 8704
 Single Fiber Mode  : No                         Min Frame Length : 64 Bytes
 IfIndex            : 36012032                   Hold time up     : 0 seconds
-Last State Change  : 10/20/2024 15:55:43        Hold time down   : 0 seconds
+Last State Change  : 10/20/2024 15:55:42        Hold time down   : 0 seconds
 Last Cleared Time  : N/A                        DDM Events       : Enabled
 Phys State Chng Cnt: 0                          
 RS-FEC Config Mode : None                       RS-FEC Oper Mode : None
@@ -3498,7 +3498,7 @@ Oper State         : down                       Config Duplex    : full
 Physical Link      : No                         MTU              : 8704
 Single Fiber Mode  : No                         Min Frame Length : 64 Bytes
 IfIndex            : 36044800                   Hold time up     : 0 seconds
-Last State Change  : 10/20/2024 15:55:43        Hold time down   : 0 seconds
+Last State Change  : 10/20/2024 15:55:42        Hold time down   : 0 seconds
 Last Cleared Time  : N/A                        DDM Events       : Enabled
 Phys State Chng Cnt: 0                          
 RS-FEC Config Mode : None                       RS-FEC Oper Mode : None
@@ -3815,7 +3815,7 @@ Oper State         : down                       Config Duplex    : full
 Physical Link      : No                         MTU              : 8704
 Single Fiber Mode  : No                         Min Frame Length : 64 Bytes
 IfIndex            : 36077568                   Hold time up     : 0 seconds
-Last State Change  : 10/20/2024 15:55:43        Hold time down   : 0 seconds
+Last State Change  : 10/20/2024 15:55:42        Hold time down   : 0 seconds
 Last Cleared Time  : N/A                        DDM Events       : Enabled
 Phys State Chng Cnt: 0                          
 RS-FEC Config Mode : None                       RS-FEC Oper Mode : None
@@ -4132,7 +4132,7 @@ Oper State         : down                       Config Duplex    : full
 Physical Link      : No                         MTU              : 8704
 Single Fiber Mode  : No                         Min Frame Length : 64 Bytes
 IfIndex            : 36110336                   Hold time up     : 0 seconds
-Last State Change  : 10/20/2024 15:55:43        Hold time down   : 0 seconds
+Last State Change  : 10/20/2024 15:55:42        Hold time down   : 0 seconds
 Last Cleared Time  : N/A                        DDM Events       : Enabled
 Phys State Chng Cnt: 0                          
 RS-FEC Config Mode : None                       RS-FEC Oper Mode : None
@@ -4449,7 +4449,7 @@ Oper State         : down                       Config Duplex    : full
 Physical Link      : No                         MTU              : 8704
 Single Fiber Mode  : No                         Min Frame Length : 64 Bytes
 IfIndex            : 36143104                   Hold time up     : 0 seconds
-Last State Change  : 10/20/2024 15:55:43        Hold time down   : 0 seconds
+Last State Change  : 10/20/2024 15:55:42        Hold time down   : 0 seconds
 Last Cleared Time  : N/A                        DDM Events       : Enabled
 Phys State Chng Cnt: 0                          
 RS-FEC Config Mode : None                       RS-FEC Oper Mode : None
@@ -4766,7 +4766,7 @@ Oper State         : down                       Config Duplex    : full
 Physical Link      : No                         MTU              : 8704
 Single Fiber Mode  : No                         Min Frame Length : 64 Bytes
 IfIndex            : 36175872                   Hold time up     : 0 seconds
-Last State Change  : 10/20/2024 15:55:43        Hold time down   : 0 seconds
+Last State Change  : 10/20/2024 15:55:42        Hold time down   : 0 seconds
 Last Cleared Time  : N/A                        DDM Events       : Enabled
 Phys State Chng Cnt: 0                          
 RS-FEC Config Mode : None                       RS-FEC Oper Mode : None
@@ -5083,7 +5083,7 @@ Oper State         : down                       Config Duplex    : full
 Physical Link      : No                         MTU              : 8704
 Single Fiber Mode  : No                         Min Frame Length : 64 Bytes
 IfIndex            : 36208640                   Hold time up     : 0 seconds
-Last State Change  : 10/20/2024 15:55:43        Hold time down   : 0 seconds
+Last State Change  : 10/20/2024 15:55:42        Hold time down   : 0 seconds
 Last Cleared Time  : N/A                        DDM Events       : Enabled
 Phys State Chng Cnt: 0                          
 RS-FEC Config Mode : None                       RS-FEC Oper Mode : None
@@ -5400,7 +5400,7 @@ Oper State         : down                       Config Duplex    : full
 Physical Link      : No                         MTU              : 8704
 Single Fiber Mode  : No                         Min Frame Length : 64 Bytes
 IfIndex            : 36241408                   Hold time up     : 0 seconds
-Last State Change  : 10/20/2024 15:55:43        Hold time down   : 0 seconds
+Last State Change  : 10/20/2024 15:55:42        Hold time down   : 0 seconds
 Last Cleared Time  : N/A                        DDM Events       : Enabled
 Phys State Chng Cnt: 0                          
 RS-FEC Config Mode : None                       RS-FEC Oper Mode : None
@@ -5717,7 +5717,7 @@ Oper State         : down                       Config Duplex    : full
 Physical Link      : No                         MTU              : 8704
 Single Fiber Mode  : No                         Min Frame Length : 64 Bytes
 IfIndex            : 36274176                   Hold time up     : 0 seconds
-Last State Change  : 10/20/2024 15:55:43        Hold time down   : 0 seconds
+Last State Change  : 10/20/2024 15:55:42        Hold time down   : 0 seconds
 Last Cleared Time  : N/A                        DDM Events       : Enabled
 Phys State Chng Cnt: 0                          
 RS-FEC Config Mode : None                       RS-FEC Oper Mode : None
@@ -6034,7 +6034,7 @@ Oper State         : down                       Config Duplex    : full
 Physical Link      : No                         MTU              : 8704
 Single Fiber Mode  : No                         Min Frame Length : 64 Bytes
 IfIndex            : 36306944                   Hold time up     : 0 seconds
-Last State Change  : 10/20/2024 15:55:43        Hold time down   : 0 seconds
+Last State Change  : 10/20/2024 15:55:42        Hold time down   : 0 seconds
 Last Cleared Time  : N/A                        DDM Events       : Enabled
 Phys State Chng Cnt: 0                          
 RS-FEC Config Mode : None                       RS-FEC Oper Mode : None
@@ -6351,7 +6351,7 @@ Oper State         : up                         Config Duplex    : full
 Physical Link      : Yes                        MTU              : 1514
 Single Fiber Mode  : No                         Min Frame Length : 64 Bytes
 IfIndex            : 67141632                   Hold time up     : 0 seconds
-Last State Change  : 10/20/2024 15:55:43        Hold time down   : 0 seconds
+Last State Change  : 10/20/2024 15:55:42        Hold time down   : 0 seconds
 Last Cleared Time  : N/A                        
 Phys State Chng Cnt: 1                          
 RS-FEC Config Mode : None                       RS-FEC Oper Mode : None
@@ -6382,8 +6382,8 @@ Sync. Status Msg.  : Disabled                   Rx Quality Level : N/A
 Tx DUS/DNU         : Disabled                   Tx Quality Level : N/A
 SSM Code Type      : sdh
 
-Configured Address : 50:00:00:01:00:00
-Hardware Address   : 50:00:00:01:00:00
+Configured Address : 50:00:00:02:00:00
+Hardware Address   : 50:00:00:02:00:00
 
 Transceiver Data
 
@@ -6463,7 +6463,7 @@ Oper State         : down                       Config Duplex    : full
 Physical Link      : No                         MTU              : 1514
 Single Fiber Mode  : No                         Min Frame Length : 64 Bytes
 IfIndex            : 100696064                  Hold time up     : 0 seconds
-Last State Change  : 10/20/2024 15:55:42        Hold time down   : 0 seconds
+Last State Change  : 10/20/2024 15:55:41        Hold time down   : 0 seconds
 Last Cleared Time  : N/A                        
 Phys State Chng Cnt: 0                          
 RS-FEC Config Mode : None                       RS-FEC Oper Mode : None
