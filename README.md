@@ -30,7 +30,7 @@ This project provides a toolkit for processing and converting port details from 
 
 1. Clone this repository:
    ```
-   git remote add origin https://gitlabe2.ext.net.nokia.com/irouass/nokia-sros-port-details-processor.git
+   https://github.com/imadrouass/Nokia-sros-port-details-processor.git
    ```
 
 2. Install required packages:
